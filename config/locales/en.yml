@@ -57,6 +57,6 @@ en:
       log_in: "Log in"
       sign_now: "Sign up Now !"
       new_u: "New user?"
+      remember: "Remember me on this computer"
     create:
       invalid: "Invalid email/password combination"
-
