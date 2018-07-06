@@ -1,5 +1,5 @@
 module ApplicationHelper
-   def full_title page_title = ""
+  def full_title page_title = ""
     base_title = "Ruby on Rails is Slice"
     if page_title.empty?
       base_title
