@@ -1,0 +1,17 @@
+<footer class="footer">
+  <small>
+    <%= t ".the" %><%= link_to "http://www.railstutorial.org" do %>
+     <%=t ".rbon" %>
+    <% end %>
+    <%=t ".by" %>
+    <%= link_to "http://www.michaelhartl.com/" do %>
+     <%=t ".michael" %>
+    <% end %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t("layouts.footer.about"), about_path %></li>
+      <li><%= link_to t("layouts.footer.contact"), contact_path %></li>
+    </ul>
+  </nav>
+</footer>
