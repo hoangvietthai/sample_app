@@ -9,6 +9,7 @@ en:
      this: "This is the home page for the"
      ruby: "Ruby on Rails Tutorial"
      sample: "sample application."
+     sign_now: "Sign up Now !"
     help:
       get: "Get help on the Ruby on Rails Tutorial at the"
       to_get: "To get help on this sample app, see the"
