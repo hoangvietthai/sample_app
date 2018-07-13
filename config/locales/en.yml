@@ -23,6 +23,18 @@ en:
       ct: "Contact"
       contact: "Contact the Ruby on Rails Tutorial about the sample app at the"
   users:
+    user:
+      delete: "Delete"
+      you_sure: "You sure"
+    find_by:
+       fail_find: "Fail"
+    edit:
+      edit_user: "Edit user"
+      save: "Save Change"
+      change: "Change"
+      update_pr: "Updated Profile"
+    index:
+       all_user: "All Users"
     new:
       sign_u: "Sign up"
       sign: "Sign up"
@@ -32,6 +44,10 @@ en:
       fail: "Login Fail"
     create:
       success: "Welcome to the Sample App!"
+    update:
+       profile: "Profile Updated"
+       delete: "User Deleted"
+       please_log: "Please Log In"
   layouts:
     header:
       sample_app: "sample app"
