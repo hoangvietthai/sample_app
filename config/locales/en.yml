@@ -72,9 +72,10 @@ en:
       sign_now: "Sign up Now !"
       new_u: "New user?"
       remember: "Remember me on this computer"
+      forgot_password: "forgot password"
     create:
       invalid: "Invalid email/password combination"
-      activate_check: "Message faild"
+      message_faild: "Message faild"
   account_activations:
     edit:
       account: "Acount actived"
@@ -85,4 +86,25 @@ en:
       welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
       activate: "Activate"
       welcome_to: "Welcome to the Sample App! Click on the link below to activate your account:"
+    reset_password: "Reset password"
+  password_resets:
+    new:
+      forgot: "Forgot password"
+      submit: "submit"
+    create:
+      email_sent: "Email sent with password reset instructions"
+      email_add: "Email address not found"
+    update:
+      password_has: "Password has been reset."
+      cant: "Can't be empty"
+    check_expiration:
+      expried: "password reset has expired."
+    edit:
+      reset_password: "Reset password"
+      confirmation: "confirmation"
+      update_password: "update password"
+  user_mailer:
+    password_rs: "Password reset"
+    password_reset:
+      reset_password: "Reset password"
 
