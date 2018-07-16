@@ -9,9 +9,7 @@ class UsersController < ApplicationController
   end
 
   def show
-    return if @user
-    flash[:danger] = t ".fail"
-    redirect_to root_path
+    redirect_to root_url if @user.present? || !@user.activated?
   end
 
   def index
@@ -32,9 +30,9 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      log_in @user
+      @user.send_activation_mail
       flash[:success] = t ".success"
-      redirect_to @user
+      redirect_to root_url
     else
       render :new
     end
@@ -68,7 +66,7 @@ class UsersController < ApplicationController
   end
 
   def correct_user
-    redirect_to root_url unless current_user?@user
+    redirect_to root_url unless current_user? @user
   end
 
   def admin_user
