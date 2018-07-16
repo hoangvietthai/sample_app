@@ -40,8 +40,6 @@ en:
       sign: "Sign up"
       this_will: "This will be a signup page for new users."
       create: "Creat My acount"
-    show:
-      fail: "Login Fail"
     create:
       success: "Welcome to the Sample App!"
     update:
@@ -76,3 +74,15 @@ en:
       remember: "Remember me on this computer"
     create:
       invalid: "Invalid email/password combination"
+      activate_check: "Message faild"
+  account_activations:
+    edit:
+      account: "Acount actived"
+      invalid: "Invalid activation link"
+  user_mailer:
+    account_activation:
+      sample: "Sample App"
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
+      welcome_to: "Welcome to the Sample App! Click on the link below to activate your account:"
+
