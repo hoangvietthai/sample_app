@@ -2,6 +2,9 @@ en:
   home: "Home"
   Help: "Help"
   app_name: "Sample App"
+  application:
+    logged_in_user:
+      please_log: "Please log in"
   static_pages:
     home:
      home1: "Home"
@@ -10,6 +13,7 @@ en:
      ruby: "Ruby on Rails Tutorial"
      sample: "sample application."
      sign_now: "Sign up Now !"
+     micropost_feed: "Micropost Feed"
     help:
       get: "Get help on the Ruby on Rails Tutorial at the"
       to_get: "To get help on this sample app, see the"
@@ -66,6 +70,11 @@ en:
       contact: "Contact"
   share:
       the_form: "The form contains"
+  shared:
+    user_info:
+      view_my_profile: "View my profile"
+    micropost_form:
+      post: "Post"
   sessions:
     new:
       log_in: "Log in"
@@ -107,4 +116,15 @@ en:
     password_rs: "Password reset"
     password_reset:
       reset_password: "Reset password"
+  microposts:
+    create:
+      micropost_created: "Micropost created"
+    destroy:
+      micropost_deleted: "Micropost deleted"
+    micropost:
+      posted: "Posted"
+      delete: "Delete"
+      you_sure: "You sure?"
+  should: "should be less than 5MB"
+  microposterror: "Maximum file size is 5MB. Please choose a smaller file."
 
