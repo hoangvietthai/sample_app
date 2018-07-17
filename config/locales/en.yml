@@ -27,6 +27,17 @@ en:
       ct: "Contact"
       contact: "Contact the Ruby on Rails Tutorial about the sample app at the"
   users:
+    follow:
+      follow: "Follow"
+    following:
+      following: "Following"
+    followers:
+      followers: "Followers"
+    show_follow:
+      view_my: "View my profile"
+      micropost: "Micropost"
+    unfollow:
+      unfollow: "Unfollow"
     user:
       delete: "Delete"
       you_sure: "You sure"
@@ -75,6 +86,9 @@ en:
       view_my_profile: "View my profile"
     micropost_form:
       post: "Post"
+    stats:
+      following: "following"
+      followers: "followers"
   sessions:
     new:
       log_in: "Log in"
