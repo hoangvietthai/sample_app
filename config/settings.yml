@@ -1,4 +1,7 @@
 maximum: 255
-maximum_name: 50
+maximum_name: 100
 sizez: 80
 minimum: 6
+picture_resize: 400
+mega: 5
+khanh: "image/jpeg,image/gif,image/png"

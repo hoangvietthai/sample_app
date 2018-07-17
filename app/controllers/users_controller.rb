@@ -9,12 +9,12 @@ class UsersController < ApplicationController
   end
 
   def show
-    return if @user && @user.activated
-    redirect_to root_url
+    redirect_to root_url if !@user.present? || !@user.activated?
+    @microposts = @user.microposts.paginate page: params[:page]
   end
 
   def index
-    @users = User.sep.paginate(page: params[:page])
+    @users = User.sep.paginate page: params[:page]
   end
 
   def edit; end
@@ -57,13 +57,6 @@ class UsersController < ApplicationController
   def user_params
     params.require(:user).permit :name, :email, :password,
       :password_confirmation
-  end
-
-  def logged_in_user
-    return if logged_in?
-    store_location
-    flash[:danger] = t ".please_log"
-    redirect_to login_url
   end
 
   def correct_user
