@@ -9,7 +9,8 @@ class UsersController < ApplicationController
   end
 
   def show
-    redirect_to root_url if @user.present? || !@user.activated?
+    return if @user && @user.activated
+    redirect_to root_url
   end
 
   def index
